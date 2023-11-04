@@ -50,7 +50,7 @@ function flushOperation(intBuffer) {
   }
 }
 
-function handleNumber(value) {
+function handleSymbol(value) {
   switch (value) {
     case "C":
       buffer = "0";
